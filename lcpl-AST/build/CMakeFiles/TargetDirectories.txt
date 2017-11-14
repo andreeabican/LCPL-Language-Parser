@@ -1,0 +1,3 @@
+/Users/andreeabican/Desktop/Facultate/CPL/Tema1/arhiva-tema1/lcpl-AST/build/CMakeFiles/rebuild_cache.dir
+/Users/andreeabican/Desktop/Facultate/CPL/Tema1/arhiva-tema1/lcpl-AST/build/CMakeFiles/edit_cache.dir
+/Users/andreeabican/Desktop/Facultate/CPL/Tema1/arhiva-tema1/lcpl-AST/build/CMakeFiles/lcpl-ast.dir

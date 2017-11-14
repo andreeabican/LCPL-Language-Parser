@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc liblcpl-ast.a  CMakeFiles/lcpl-ast.dir/src/ASTSerialization.o CMakeFiles/lcpl-ast.dir/src/ASTVisitor.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib liblcpl-ast.a
