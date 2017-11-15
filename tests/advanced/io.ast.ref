@@ -1,0 +1,178 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 3,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 3,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 2,
+                    "LineNumber": 5,
+                    "Name": "name",
+                    "Type": "String"
+                },
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 3,
+                    "LineNumber": 6,
+                    "Name": "age",
+                    "Type": "Int"
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 4,
+                    "LineNumber": 9,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 5,
+                        "LineNumber": 10,
+                        "Expressions": [
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 6,
+                                "LineNumber": 10,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 7,
+                                    "LineNumber": 10,
+                                    "Name": "name"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 8,
+                                    "LineNumber": 10,
+                                    "Name": "in",
+                                    "Object": {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 9,
+                                        "LineNumber": 10,
+                                        "Name": "out",
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "StringConstant",
+                                                "NodeID": 10,
+                                                "LineNumber": 10,
+                                                "Value": "Please enter your name: "
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 11,
+                                "LineNumber": 11,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 12,
+                                    "LineNumber": 11,
+                                    "Name": "age"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 13,
+                                    "LineNumber": 11,
+                                    "Name": "toInt",
+                                    "Object": {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 14,
+                                        "LineNumber": 11,
+                                        "Name": "in",
+                                        "Object": {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 15,
+                                            "LineNumber": 11,
+                                            "Name": "out",
+                                            "Arguments": [
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 16,
+                                                    "LineNumber": 11,
+                                                    "Value": "Please enter your age: "
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 17,
+                                "LineNumber": 12,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 18,
+                                    "LineNumber": 12,
+                                    "Name": "out",
+                                    "Object": {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 19,
+                                        "LineNumber": 12,
+                                        "Name": "out",
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "StringConstant",
+                                                "NodeID": 20,
+                                                "LineNumber": 12,
+                                                "Value": "Your name is Bond, "
+                                            }
+                                        ]
+                                    },
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 21,
+                                            "LineNumber": 12,
+                                            "Name": "name"
+                                        }
+                                    ]
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 22,
+                                        "LineNumber": 12,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "BinaryOperator",
+                                            "NodeID": 23,
+                                            "LineNumber": 12,
+                                            "OperatorKind": "+",
+                                            "LeftHandSide": {
+                                                "NodeType": "StringConstant",
+                                                "NodeID": 24,
+                                                "LineNumber": 12,
+                                                "Value": " Bond and you are 00"
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 25,
+                                                "LineNumber": 12,
+                                                "Name": "age"
+                                            }
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 26,
+                                            "LineNumber": 12,
+                                            "Value": " movies old"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Main",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 4,
+                                "LineNumber": 3,
+                                "Name": "m",
+                                "Type": "Main"
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 5,
+                                "LineNumber": 4,
+                                "Name": "main",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 6,
+                                    "LineNumber": 4,
+                                    "Name": "m"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

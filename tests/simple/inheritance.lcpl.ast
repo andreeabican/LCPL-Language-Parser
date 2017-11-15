@@ -1,0 +1,58 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 3,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 3,
+            "Name": "Main",
+            "Parent": "B",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 4,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 5,
+                        "Expressions": [
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 4,
+                                "LineNumber": 5,
+                                "Name": "a"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 5,
+            "LineNumber": 9,
+            "Name": "A",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 6,
+                    "LineNumber": 11,
+                    "Name": "a",
+                    "Type": "Int"
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 7,
+            "LineNumber": 15,
+            "Name": "B",
+            "Parent": "A"
+        }
+    ]
+}

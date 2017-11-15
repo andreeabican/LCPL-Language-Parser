@@ -1,0 +1,161 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 2,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 2,
+            "Name": "Factorial",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 3,
+                    "Name": "fact",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 4,
+                        "Expressions": [
+                            {
+                                "NodeType": "IfStatement",
+                                "NodeID": 4,
+                                "LineNumber": 4,
+                                "Condition": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 5,
+                                    "LineNumber": 4,
+                                    "OperatorKind": "<",
+                                    "LeftHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 6,
+                                        "LineNumber": 4,
+                                        "Name": "n"
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 7,
+                                        "LineNumber": 4,
+                                        "Value": 1
+                                    }
+                                },
+                                "Then": {
+                                    "NodeType": "Block",
+                                    "NodeID": 8,
+                                    "LineNumber": 5,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 9,
+                                            "LineNumber": 5,
+                                            "Value": 1
+                                        }
+                                    ]
+                                },
+                                "Else": {
+                                    "NodeType": "Block",
+                                    "NodeID": 10,
+                                    "LineNumber": 7,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "BinaryOperator",
+                                            "NodeID": 11,
+                                            "LineNumber": 7,
+                                            "OperatorKind": "*",
+                                            "LeftHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 12,
+                                                "LineNumber": 7,
+                                                "Name": "n"
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "Dispatch",
+                                                "NodeID": 13,
+                                                "LineNumber": 7,
+                                                "Name": "fact",
+                                                "Arguments": [
+                                                    {
+                                                        "NodeType": "BinaryOperator",
+                                                        "NodeID": 14,
+                                                        "LineNumber": 7,
+                                                        "OperatorKind": "-",
+                                                        "LeftHandSide": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 15,
+                                                            "LineNumber": 7,
+                                                            "Name": "n"
+                                                        },
+                                                        "RightHandSide": {
+                                                            "NodeType": "IntegerConstant",
+                                                            "NodeID": 16,
+                                                            "LineNumber": 7,
+                                                            "Value": 1
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 17,
+                            "LineNumber": 3,
+                            "Name": "n",
+                            "Type": "Int"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 18,
+            "LineNumber": 13,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 19,
+                    "LineNumber": 15,
+                    "Name": "f",
+                    "Type": "Factorial",
+                    "Initializer": {
+                        "NodeType": "NewObject",
+                        "NodeID": 20,
+                        "LineNumber": 15,
+                        "Type": "Factorial"
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 21,
+                    "LineNumber": 17,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 22,
+                        "LineNumber": 18,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 23,
+                                "LineNumber": 18,
+                                "Name": "out"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "t",
+            "Parent": "p",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "value",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 2,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 4,
+                                "LineNumber": 2,
+                                "Value": 7
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 5,
+            "LineNumber": 5,
+            "Name": "Main",
+            "Parent": "ph",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 6,
+                    "LineNumber": 6,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 7,
+                        "LineNumber": 7,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 8,
+                                "LineNumber": 7,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 9,
+                                        "LineNumber": 7,
+                                        "OperatorKind": "*",
+                                        "LeftHandSide": {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 10,
+                                            "LineNumber": 7,
+                                            "Name": "val",
+                                            "Object": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 11,
+                                                "LineNumber": 7,
+                                                "Name": "x"
+                                            }
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 12,
+                                            "LineNumber": 7,
+                                            "Name": "value",
+                                            "Object": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 13,
+                                                "LineNumber": 7,
+                                                "Name": "x"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 14,
+            "LineNumber": 11,
+            "Name": "p",
+            "Parent": "q",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 15,
+                    "LineNumber": 12,
+                    "Name": "val",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 16,
+                        "LineNumber": 12,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 17,
+                                "LineNumber": 12,
+                                "Value": 6
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 18,
+            "LineNumber": 15,
+            "Name": "ph",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 19,
+                    "LineNumber": 17,
+                    "Name": "x",
+                    "Type": "x",
+                    "Initializer": {
+                        "NodeType": "NewObject",
+                        "NodeID": 20,
+                        "LineNumber": 17,
+                        "Type": "x"
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 21,
+            "LineNumber": 21,
+            "Name": "q",
+            "Parent": "r",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 22,
+                    "LineNumber": 22,
+                    "Name": "val",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 23,
+                        "LineNumber": 22,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 24,
+                                "LineNumber": 22,
+                                "Value": 5
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 25,
+            "LineNumber": 25,
+            "Name": "r",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 26,
+                    "LineNumber": 26,
+                    "Name": "val",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 27,
+                        "LineNumber": 26,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 28,
+                                "LineNumber": 26,
+                                "Value": 4
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 29,
+            "LineNumber": 29,
+            "Name": "x",
+            "Parent": "t",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 30,
+                    "LineNumber": 30,
+                    "Name": "value",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 31,
+                        "LineNumber": 30,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 32,
+                                "LineNumber": 30,
+                                "Value": 8
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

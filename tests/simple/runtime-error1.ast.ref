@@ -1,0 +1,70 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Main",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "Substring",
+                                "NodeID": 4,
+                                "LineNumber": 3,
+                                "Object": {
+                                    "NodeType": "StringConstant",
+                                    "NodeID": 5,
+                                    "LineNumber": 3,
+                                    "Value": "hello"
+                                },
+                                "Start": {
+                                    "NodeType": "IntegerConstant",
+                                    "NodeID": 6,
+                                    "LineNumber": 3,
+                                    "Value": 1
+                                },
+                                "End": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 7,
+                                    "LineNumber": 3,
+                                    "OperatorKind": "+",
+                                    "LeftHandSide": {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 8,
+                                        "LineNumber": 3,
+                                        "Name": "length",
+                                        "Object": {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 9,
+                                            "LineNumber": 3,
+                                            "Value": "hello"
+                                        }
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 10,
+                                        "LineNumber": 3,
+                                        "Value": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

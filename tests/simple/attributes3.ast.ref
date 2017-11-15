@@ -1,0 +1,211 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 3,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 3,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 2,
+                    "LineNumber": 5,
+                    "Name": "number",
+                    "Type": "Int"
+                },
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 3,
+                    "LineNumber": 6,
+                    "Name": "initialized",
+                    "Type": "Int",
+                    "Initializer": {
+                        "NodeType": "IntegerConstant",
+                        "NodeID": 4,
+                        "LineNumber": 6,
+                        "Value": 1234
+                    }
+                },
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 5,
+                    "LineNumber": 7,
+                    "Name": "a_String",
+                    "Type": "String",
+                    "Initializer": {
+                        "NodeType": "StringConstant",
+                        "NodeID": 6,
+                        "LineNumber": 7,
+                        "Value": "This is a string"
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 7,
+                    "LineNumber": 10,
+                    "Name": "print",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 8,
+                        "LineNumber": 11,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 9,
+                                "LineNumber": 11,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 10,
+                                    "LineNumber": 11,
+                                    "Name": "out",
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 11,
+                                            "LineNumber": 11,
+                                            "Name": "hdr"
+                                        }
+                                    ]
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 12,
+                                        "LineNumber": 11,
+                                        "Name": "a_String"
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 13,
+                                "LineNumber": 12,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 14,
+                                    "LineNumber": 12,
+                                    "Name": "hdr"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 15,
+                                    "LineNumber": 12,
+                                    "OperatorKind": "+",
+                                    "LeftHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 16,
+                                        "LineNumber": 12,
+                                        "Name": "hdr"
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 17,
+                                        "LineNumber": 12,
+                                        "Name": "hdr"
+                                    }
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 18,
+                                "LineNumber": 13,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 19,
+                                    "LineNumber": 13,
+                                    "Name": "out",
+                                    "Object": {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 20,
+                                        "LineNumber": 13,
+                                        "Name": "out",
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 21,
+                                                "LineNumber": 13,
+                                                "Name": "hdr"
+                                            }
+                                        ]
+                                    },
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 22,
+                                            "LineNumber": 13,
+                                            "Name": "number"
+                                        }
+                                    ]
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 23,
+                                        "LineNumber": 14,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 24,
+                                            "LineNumber": 14,
+                                            "Name": "number"
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 25,
+                                            "LineNumber": 14,
+                                            "Name": "initialized"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 26,
+                            "LineNumber": 10,
+                            "Name": "hdr",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 27,
+                    "LineNumber": 18,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 28,
+                        "LineNumber": 19,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 29,
+                                "LineNumber": 19,
+                                "Name": "print",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "StringConstant",
+                                        "NodeID": 30,
+                                        "LineNumber": 19,
+                                        "Value": ">"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

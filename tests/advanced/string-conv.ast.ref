@@ -1,0 +1,358 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "IntStr",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "s",
+                    "Type": "String"
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 3,
+                    "LineNumber": 3,
+                    "Name": "set",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 4,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 5,
+                                "LineNumber": 3,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 6,
+                                    "LineNumber": 3,
+                                    "Name": "s"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 7,
+                                    "LineNumber": 3,
+                                    "Name": "str"
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 8,
+                            "LineNumber": 3,
+                            "Name": "str",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 9,
+                    "LineNumber": 4,
+                    "Name": "get",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 10,
+                        "LineNumber": 4,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 11,
+                                "LineNumber": 4,
+                                "Name": "toInt",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 12,
+                                    "LineNumber": 4,
+                                    "Name": "s"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 13,
+            "LineNumber": 7,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 14,
+                    "LineNumber": 8,
+                    "Name": "mac",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 15,
+                        "LineNumber": 8,
+                        "Expressions": [
+                            {
+                                "NodeType": "BinaryOperator",
+                                "NodeID": 16,
+                                "LineNumber": 8,
+                                "OperatorKind": "+",
+                                "LeftHandSide": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 17,
+                                    "LineNumber": 8,
+                                    "OperatorKind": "*",
+                                    "LeftHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 18,
+                                        "LineNumber": 8,
+                                        "Name": "a"
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 19,
+                                        "LineNumber": 8,
+                                        "Name": "b"
+                                    }
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 20,
+                                    "LineNumber": 8,
+                                    "Name": "toInt",
+                                    "Object": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 21,
+                                        "LineNumber": 8,
+                                        "Name": "c"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 22,
+                            "LineNumber": 8,
+                            "Name": "a",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 23,
+                            "LineNumber": 8,
+                            "Name": "b",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 24,
+                            "LineNumber": 8,
+                            "Name": "c",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 25,
+                    "LineNumber": 9,
+                    "Name": "mac2",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 26,
+                        "LineNumber": 9,
+                        "Expressions": [
+                            {
+                                "NodeType": "BinaryOperator",
+                                "NodeID": 27,
+                                "LineNumber": 9,
+                                "OperatorKind": "+",
+                                "LeftHandSide": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 28,
+                                    "LineNumber": 9,
+                                    "OperatorKind": "*",
+                                    "LeftHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 29,
+                                        "LineNumber": 9,
+                                        "Name": "a"
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 30,
+                                        "LineNumber": 9,
+                                        "Name": "b"
+                                    }
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 31,
+                                    "LineNumber": 9,
+                                    "Name": "get",
+                                    "Object": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 32,
+                                        "LineNumber": 9,
+                                        "Name": "c"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 33,
+                            "LineNumber": 9,
+                            "Name": "a",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 34,
+                            "LineNumber": 9,
+                            "Name": "b",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 35,
+                            "LineNumber": 9,
+                            "Name": "c",
+                            "Type": "IntStr"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 36,
+                    "LineNumber": 10,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 37,
+                        "LineNumber": 11,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 38,
+                                "LineNumber": 11,
+                                "Name": "x",
+                                "Type": "IntStr",
+                                "Initializer": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 39,
+                                    "LineNumber": 11,
+                                    "Type": "IntStr"
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 40,
+                                "LineNumber": 12,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 41,
+                                        "LineNumber": 12,
+                                        "Name": "mac",
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 42,
+                                                "LineNumber": 12,
+                                                "Value": 1
+                                            },
+                                            {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 43,
+                                                "LineNumber": 12,
+                                                "Value": 2
+                                            },
+                                            {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 44,
+                                                "LineNumber": 12,
+                                                "Value": 3
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 45,
+                                "LineNumber": 13,
+                                "Name": "set",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 46,
+                                    "LineNumber": 13,
+                                    "Name": "x"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "StringConstant",
+                                        "NodeID": 47,
+                                        "LineNumber": 13,
+                                        "Value": "3"
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 48,
+                                "LineNumber": 14,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 49,
+                                        "LineNumber": 14,
+                                        "Name": "mac2",
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 50,
+                                                "LineNumber": 14,
+                                                "Value": 1
+                                            },
+                                            {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 51,
+                                                "LineNumber": 14,
+                                                "Value": 2
+                                            },
+                                            {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 52,
+                                                "LineNumber": 14,
+                                                "Name": "x"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

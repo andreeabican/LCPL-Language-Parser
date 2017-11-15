@@ -1,0 +1,126 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Circle",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "name",
+                    "ReturnType": "String",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 2,
+                        "Expressions": [
+                            {
+                                "NodeType": "StringConstant",
+                                "NodeID": 4,
+                                "LineNumber": 2,
+                                "Value": "round"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 5,
+            "LineNumber": 5,
+            "Name": "Line",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 6,
+                    "LineNumber": 6,
+                    "Name": "name",
+                    "ReturnType": "String",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 7,
+                        "LineNumber": 6,
+                        "Expressions": [
+                            {
+                                "NodeType": "StringConstant",
+                                "NodeID": 8,
+                                "LineNumber": 6,
+                                "Value": "straight"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 9,
+            "LineNumber": 9,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 10,
+                    "LineNumber": 10,
+                    "Name": "shape",
+                    "ReturnType": "Line",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 11,
+                        "LineNumber": 11,
+                        "Expressions": [
+                            {
+                                "NodeType": "NewObject",
+                                "NodeID": 12,
+                                "LineNumber": 11,
+                                "Type": "Line"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 13,
+                    "LineNumber": 13,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 14,
+                        "LineNumber": 14,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 15,
+                                "LineNumber": 14,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 16,
+                                        "LineNumber": 14,
+                                        "Name": "name",
+                                        "Object": {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 17,
+                                            "LineNumber": 14,
+                                            "Name": "shape"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,364 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 3,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 3,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 4,
+                    "Name": "o",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 4,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 4,
+                                "LineNumber": 4,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 5,
+                                        "LineNumber": 4,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 6,
+                                            "LineNumber": 4,
+                                            "Name": "s"
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 7,
+                                            "LineNumber": 4,
+                                            "Value": "\n"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 8,
+                            "LineNumber": 4,
+                            "Name": "s",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 9,
+                    "LineNumber": 5,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 10,
+                        "LineNumber": 6,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 11,
+                                "LineNumber": 6,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 12,
+                                        "LineNumber": 6,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 13,
+                                            "LineNumber": 6,
+                                            "Value": 1
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 14,
+                                            "LineNumber": 6,
+                                            "Value": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 15,
+                                "LineNumber": 7,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 16,
+                                        "LineNumber": 7,
+                                        "OperatorKind": "-",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 17,
+                                            "LineNumber": 7,
+                                            "Value": 123
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 18,
+                                            "LineNumber": 7,
+                                            "Value": 1000
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 19,
+                                "LineNumber": 8,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 20,
+                                        "LineNumber": 8,
+                                        "OperatorKind": "/",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 21,
+                                            "LineNumber": 8,
+                                            "Value": 3
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 22,
+                                            "LineNumber": 8,
+                                            "Value": 4
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 23,
+                                "LineNumber": 9,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 24,
+                                        "LineNumber": 9,
+                                        "OperatorKind": "*",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 25,
+                                            "LineNumber": 9,
+                                            "Value": 10
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 26,
+                                            "LineNumber": 9,
+                                            "Value": 20
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 27,
+                                "LineNumber": 10,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "UnaryOperator",
+                                        "NodeID": 28,
+                                        "LineNumber": 10,
+                                        "OperatorKind": "-",
+                                        "Operand": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 29,
+                                            "LineNumber": 10,
+                                            "Value": 100
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 30,
+                                "LineNumber": 11,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 31,
+                                        "LineNumber": 11,
+                                        "OperatorKind": "<",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 32,
+                                            "LineNumber": 11,
+                                            "Value": 5
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 33,
+                                            "LineNumber": 11,
+                                            "Value": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 34,
+                                "LineNumber": 12,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 35,
+                                        "LineNumber": 12,
+                                        "OperatorKind": "<=",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 36,
+                                            "LineNumber": 12,
+                                            "Value": 4
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 37,
+                                            "LineNumber": 12,
+                                            "Value": 7
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 38,
+                                "LineNumber": 13,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 39,
+                                        "LineNumber": 13,
+                                        "OperatorKind": "==",
+                                        "LeftHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 40,
+                                            "LineNumber": 13,
+                                            "Value": 100
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 41,
+                                            "LineNumber": 13,
+                                            "Value": 100
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 42,
+                                "LineNumber": 14,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "UnaryOperator",
+                                        "NodeID": 43,
+                                        "LineNumber": 14,
+                                        "OperatorKind": "!",
+                                        "Operand": {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 44,
+                                            "LineNumber": 14,
+                                            "Value": 10
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 45,
+                                "LineNumber": 15,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 46,
+                                        "LineNumber": 15,
+                                        "OperatorKind": "==",
+                                        "LeftHandSide": {
+                                            "NodeType": "NullConstant",
+                                            "NodeID": 47,
+                                            "LineNumber": 15
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "NullConstant",
+                                            "NodeID": 48,
+                                            "LineNumber": 15
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 49,
+                                "LineNumber": 16,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 50,
+                                        "LineNumber": 16,
+                                        "OperatorKind": "==",
+                                        "LeftHandSide": {
+                                            "NodeType": "NullConstant",
+                                            "NodeID": 51,
+                                            "LineNumber": 16
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 52,
+                                            "LineNumber": 16,
+                                            "Name": "self"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 53,
+                                "LineNumber": 17,
+                                "Name": "o",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 54,
+                                        "LineNumber": 17,
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

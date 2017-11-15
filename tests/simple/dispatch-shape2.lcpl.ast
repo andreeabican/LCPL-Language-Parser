@@ -1,0 +1,335 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Shape",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "print",
+                    "ReturnType": "IO",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 4,
+                                "LineNumber": 3,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 5,
+                                    "LineNumber": 3,
+                                    "Name": "stream"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 6,
+                                        "LineNumber": 3,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "BinaryOperator",
+                                            "NodeID": 7,
+                                            "LineNumber": 3,
+                                            "OperatorKind": "+",
+                                            "LeftHandSide": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 8,
+                                                "LineNumber": 3,
+                                                "OperatorKind": "+",
+                                                "LeftHandSide": {
+                                                    "NodeType": "BinaryOperator",
+                                                    "NodeID": 9,
+                                                    "LineNumber": 3,
+                                                    "OperatorKind": "+",
+                                                    "LeftHandSide": {
+                                                        "NodeType": "StringConstant",
+                                                        "NodeID": 10,
+                                                        "LineNumber": 3,
+                                                        "Value": "This is a generic shape @("
+                                                    },
+                                                    "RightHandSide": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 11,
+                                                        "LineNumber": 3,
+                                                        "Name": "x"
+                                                    }
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 12,
+                                                    "LineNumber": 3,
+                                                    "Value": ","
+                                                }
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 13,
+                                                "LineNumber": 3,
+                                                "Name": "y"
+                                            }
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 14,
+                                            "LineNumber": 3,
+                                            "Value": ")\n"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 15,
+                            "LineNumber": 2,
+                            "Name": "stream",
+                            "Type": "IO"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 16,
+                            "LineNumber": 2,
+                            "Name": "x",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 17,
+                            "LineNumber": 2,
+                            "Name": "y",
+                            "Type": "Int"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 18,
+            "LineNumber": 7,
+            "Name": "Circle",
+            "Parent": "Shape",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 19,
+                    "LineNumber": 8,
+                    "Name": "print",
+                    "ReturnType": "IO",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 20,
+                        "LineNumber": 9,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 21,
+                                "LineNumber": 9,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 22,
+                                    "LineNumber": 9,
+                                    "Name": "stream"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 23,
+                                        "LineNumber": 9,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "BinaryOperator",
+                                            "NodeID": 24,
+                                            "LineNumber": 9,
+                                            "OperatorKind": "+",
+                                            "LeftHandSide": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 25,
+                                                "LineNumber": 9,
+                                                "OperatorKind": "+",
+                                                "LeftHandSide": {
+                                                    "NodeType": "BinaryOperator",
+                                                    "NodeID": 26,
+                                                    "LineNumber": 9,
+                                                    "OperatorKind": "+",
+                                                    "LeftHandSide": {
+                                                        "NodeType": "StringConstant",
+                                                        "NodeID": 27,
+                                                        "LineNumber": 9,
+                                                        "Value": "This is a circle @("
+                                                    },
+                                                    "RightHandSide": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 28,
+                                                        "LineNumber": 9,
+                                                        "Name": "dx"
+                                                    }
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 29,
+                                                    "LineNumber": 9,
+                                                    "Value": ","
+                                                }
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 30,
+                                                "LineNumber": 9,
+                                                "Name": "dy"
+                                            }
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 31,
+                                            "LineNumber": 9,
+                                            "Value": ")\n"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 32,
+                            "LineNumber": 8,
+                            "Name": "stream",
+                            "Type": "IO"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 33,
+                            "LineNumber": 8,
+                            "Name": "dx",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 34,
+                            "LineNumber": 8,
+                            "Name": "dy",
+                            "Type": "Int"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 35,
+            "LineNumber": 12,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 36,
+                    "LineNumber": 13,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 37,
+                        "LineNumber": 14,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 38,
+                                "LineNumber": 15,
+                                "Name": "s",
+                                "Type": "Shape",
+                                "Initializer": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 39,
+                                    "LineNumber": 15,
+                                    "Type": "Circle"
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 40,
+                                "LineNumber": 17,
+                                "Name": "print",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 41,
+                                    "LineNumber": 17,
+                                    "Name": "s"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 42,
+                                        "LineNumber": 17,
+                                        "Name": "self"
+                                    },
+                                    {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 43,
+                                        "LineNumber": 17,
+                                        "Value": 1
+                                    },
+                                    {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 44,
+                                        "LineNumber": 17,
+                                        "Value": 2
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "StaticDispatch",
+                                "NodeID": 45,
+                                "LineNumber": 18,
+                                "Type": "Shape",
+                                "Name": "print",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 46,
+                                    "LineNumber": 18,
+                                    "Name": "s"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 47,
+                                        "LineNumber": 18,
+                                        "Name": "self"
+                                    },
+                                    {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 48,
+                                        "LineNumber": 18,
+                                        "Value": 3
+                                    },
+                                    {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 49,
+                                        "LineNumber": 18,
+                                        "Value": 4
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

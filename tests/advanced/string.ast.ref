@@ -1,0 +1,352 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 3,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 3,
+            "Name": "Main",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 4,
+                    "Name": "paranthese",
+                    "ReturnType": "String",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 5,
+                        "Expressions": [
+                            {
+                                "NodeType": "BinaryOperator",
+                                "NodeID": 4,
+                                "LineNumber": 5,
+                                "OperatorKind": "+",
+                                "LeftHandSide": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 5,
+                                    "LineNumber": 5,
+                                    "OperatorKind": "+",
+                                    "LeftHandSide": {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 6,
+                                        "LineNumber": 5,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "BinaryOperator",
+                                            "NodeID": 7,
+                                            "LineNumber": 5,
+                                            "OperatorKind": "+",
+                                            "LeftHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 8,
+                                                "LineNumber": 5,
+                                                "Name": "a"
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "StringConstant",
+                                                "NodeID": 9,
+                                                "LineNumber": 5,
+                                                "Value": "("
+                                            }
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 10,
+                                            "LineNumber": 5,
+                                            "Name": "b"
+                                        }
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "StringConstant",
+                                        "NodeID": 11,
+                                        "LineNumber": 5,
+                                        "Value": ")"
+                                    }
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 12,
+                                    "LineNumber": 5,
+                                    "Name": "c"
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 13,
+                            "LineNumber": 4,
+                            "Name": "a",
+                            "Type": "String"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 14,
+                            "LineNumber": 4,
+                            "Name": "b",
+                            "Type": "String"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 15,
+                            "LineNumber": 4,
+                            "Name": "c",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 16,
+                    "LineNumber": 8,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 17,
+                        "LineNumber": 9,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 18,
+                                "LineNumber": 10,
+                                "Name": "result",
+                                "Type": "String",
+                                "Initializer": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 19,
+                                    "LineNumber": 11,
+                                    "Name": "paranthese",
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 20,
+                                            "LineNumber": 12,
+                                            "Name": "paranthese",
+                                            "Arguments": [
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 21,
+                                                    "LineNumber": 12,
+                                                    "Value": "a"
+                                                },
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 22,
+                                                    "LineNumber": 12,
+                                                    "Value": ""
+                                                },
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 23,
+                                                    "LineNumber": 12,
+                                                    "Value": "c"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 24,
+                                            "LineNumber": 13,
+                                            "Name": "paranthese",
+                                            "Arguments": [
+                                                {
+                                                    "NodeType": "Dispatch",
+                                                    "NodeID": 25,
+                                                    "LineNumber": 14,
+                                                    "Name": "paranthese",
+                                                    "Arguments": [
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 26,
+                                                            "LineNumber": 14,
+                                                            "Value": "d"
+                                                        },
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 27,
+                                                            "LineNumber": 14,
+                                                            "Value": "e"
+                                                        },
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 28,
+                                                            "LineNumber": 14,
+                                                            "Value": "f"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "NodeType": "Dispatch",
+                                                    "NodeID": 29,
+                                                    "LineNumber": 15,
+                                                    "Name": "paranthese",
+                                                    "Arguments": [
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 30,
+                                                            "LineNumber": 15,
+                                                            "Value": "g"
+                                                        },
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 31,
+                                                            "LineNumber": 15,
+                                                            "Value": ""
+                                                        },
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 32,
+                                                            "LineNumber": 15,
+                                                            "Value": "i"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "NodeType": "Dispatch",
+                                                    "NodeID": 33,
+                                                    "LineNumber": 16,
+                                                    "Name": "paranthese",
+                                                    "Arguments": [
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 34,
+                                                            "LineNumber": 16,
+                                                            "Value": "j"
+                                                        },
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 35,
+                                                            "LineNumber": 16,
+                                                            "Value": "k"
+                                                        },
+                                                        {
+                                                            "NodeType": "StringConstant",
+                                                            "NodeID": 36,
+                                                            "LineNumber": 16,
+                                                            "Value": "l"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 37,
+                                            "LineNumber": 18,
+                                            "Name": "paranthese",
+                                            "Arguments": [
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 38,
+                                                    "LineNumber": 18,
+                                                    "Value": "m"
+                                                },
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 39,
+                                                    "LineNumber": 18,
+                                                    "Value": "n"
+                                                },
+                                                {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 40,
+                                                    "LineNumber": 18,
+                                                    "Value": "o"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 41,
+                                "LineNumber": 21,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 42,
+                                    "LineNumber": 21,
+                                    "Type": "IO"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 43,
+                                        "LineNumber": 21,
+                                        "OperatorKind": "+",
+                                        "LeftHandSide": {
+                                            "NodeType": "BinaryOperator",
+                                            "NodeID": 44,
+                                            "LineNumber": 21,
+                                            "OperatorKind": "+",
+                                            "LeftHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 45,
+                                                "LineNumber": 21,
+                                                "Name": "result"
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "StringConstant",
+                                                "NodeID": 46,
+                                                "LineNumber": 21,
+                                                "Value": "\n"
+                                            }
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "Substring",
+                                            "NodeID": 47,
+                                            "LineNumber": 21,
+                                            "Object": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 48,
+                                                "LineNumber": 21,
+                                                "Name": "result"
+                                            },
+                                            "Start": {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 49,
+                                                "LineNumber": 21,
+                                                "Value": 0
+                                            },
+                                            "End": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 50,
+                                                "LineNumber": 21,
+                                                "OperatorKind": "/",
+                                                "LeftHandSide": {
+                                                    "NodeType": "Dispatch",
+                                                    "NodeID": 51,
+                                                    "LineNumber": 21,
+                                                    "Name": "length",
+                                                    "Object": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 52,
+                                                        "LineNumber": 21,
+                                                        "Name": "result"
+                                                    }
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "IntegerConstant",
+                                                    "NodeID": 53,
+                                                    "LineNumber": 21,
+                                                    "Value": 2
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

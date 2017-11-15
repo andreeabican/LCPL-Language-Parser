@@ -1,0 +1,407 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "List"
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 2,
+            "LineNumber": 4,
+            "Name": "Cons"
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 3,
+            "LineNumber": 7,
+            "Name": "test",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 4,
+                    "LineNumber": 8,
+                    "Name": "xcar",
+                    "Type": "Int"
+                },
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 5,
+                    "LineNumber": 8,
+                    "Name": "xcdr",
+                    "Type": "List"
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 6,
+            "LineNumber": 11,
+            "Name": "test2",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 7,
+                    "LineNumber": 12,
+                    "Name": "xcar",
+                    "Type": "Int",
+                    "Initializer": {
+                        "NodeType": "BinaryOperator",
+                        "NodeID": 8,
+                        "LineNumber": 12,
+                        "OperatorKind": "+",
+                        "LeftHandSide": {
+                            "NodeType": "IntegerConstant",
+                            "NodeID": 9,
+                            "LineNumber": 12,
+                            "Value": 2
+                        },
+                        "RightHandSide": {
+                            "NodeType": "IntegerConstant",
+                            "NodeID": 10,
+                            "LineNumber": 12,
+                            "Value": 3
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 11,
+            "LineNumber": 17,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 12,
+                    "LineNumber": 18,
+                    "Name": "hello",
+                    "ReturnType": "String",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 13,
+                        "LineNumber": 19,
+                        "Expressions": [
+                            {
+                                "NodeType": "BinaryOperator",
+                                "NodeID": 14,
+                                "LineNumber": 19,
+                                "OperatorKind": "+",
+                                "LeftHandSide": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 15,
+                                    "LineNumber": 19,
+                                    "OperatorKind": "+",
+                                    "LeftHandSide": {
+                                        "NodeType": "StringConstant",
+                                        "NodeID": 16,
+                                        "LineNumber": 19,
+                                        "Value": "Hello "
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 17,
+                                        "LineNumber": 19,
+                                        "Name": "b"
+                                    }
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 18,
+                                    "LineNumber": 19,
+                                    "Name": "a"
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 19,
+                            "LineNumber": 18,
+                            "Name": "a",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 20,
+                            "LineNumber": 18,
+                            "Name": "b",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 21,
+                    "LineNumber": 22,
+                    "Name": "printHello",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 22,
+                        "LineNumber": 23,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 23,
+                                "LineNumber": 23,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 24,
+                                        "LineNumber": 23,
+                                        "Name": "hello",
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 25,
+                                                "LineNumber": 23,
+                                                "Name": "a"
+                                            },
+                                            {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 26,
+                                                "LineNumber": 23,
+                                                "Name": "b"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 27,
+                            "LineNumber": 22,
+                            "Name": "a",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 28,
+                            "LineNumber": 22,
+                            "Name": "b",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 29,
+                    "LineNumber": 26,
+                    "Name": "piTimes100",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 30,
+                        "LineNumber": 27,
+                        "Expressions": [
+                            {
+                                "NodeType": "IntegerConstant",
+                                "NodeID": 31,
+                                "LineNumber": 27,
+                                "Value": 314
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 32,
+                    "LineNumber": 30,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 33,
+                        "LineNumber": 31,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 34,
+                                "LineNumber": 31,
+                                "Name": "printHello",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 35,
+                                        "LineNumber": 31,
+                                        "Name": "piTimes100"
+                                    },
+                                    {
+                                        "NodeType": "StringConstant",
+                                        "NodeID": 36,
+                                        "LineNumber": 31,
+                                        "Value": "world "
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 37,
+                                "LineNumber": 32,
+                                "Name": "empty"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 38,
+                    "LineNumber": 35,
+                    "Name": "empty",
+                    "ReturnType": "Void"
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 39,
+            "LineNumber": 38,
+            "Name": "Main2",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 40,
+                    "LineNumber": 39,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 41,
+                        "LineNumber": 40,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 42,
+                                "LineNumber": 40,
+                                "Name": "c",
+                                "Type": "Cons"
+                            },
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 43,
+                                "LineNumber": 40,
+                                "Name": "x",
+                                "Type": "Int"
+                            },
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 44,
+                                "LineNumber": 41,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 45,
+                                    "LineNumber": 41,
+                                    "Name": "c"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 46,
+                                    "LineNumber": 41,
+                                    "Type": "Cons"
+                                }
+                            },
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 47,
+                                "LineNumber": 42,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 48,
+                                    "LineNumber": 42,
+                                    "Name": "x"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "IntegerConstant",
+                                    "NodeID": 49,
+                                    "LineNumber": 42,
+                                    "Value": 0
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 50,
+                    "LineNumber": 45,
+                    "Name": "main2",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 51,
+                        "LineNumber": 46,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 52,
+                                "LineNumber": 46,
+                                "Name": "c",
+                                "Type": "Cons",
+                                "Initializer": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 53,
+                                    "LineNumber": 46,
+                                    "Type": "Cons"
+                                }
+                            },
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 54,
+                                "LineNumber": 46,
+                                "Name": "x",
+                                "Type": "Int",
+                                "Initializer": {
+                                    "NodeType": "IntegerConstant",
+                                    "NodeID": 55,
+                                    "LineNumber": 46,
+                                    "Value": 0
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 56,
+                    "LineNumber": 49,
+                    "Name": "m",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 57,
+                        "LineNumber": 49,
+                        "Expressions": [
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 58,
+                                "LineNumber": 49,
+                                "Name": "n"
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 59,
+                            "LineNumber": 49,
+                            "Name": "n",
+                            "Type": "Int"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

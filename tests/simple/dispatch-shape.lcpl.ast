@@ -1,0 +1,187 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Shape",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "print",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 3,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 4,
+                                "LineNumber": 3,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 5,
+                                    "LineNumber": 3,
+                                    "Name": "stream"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "StringConstant",
+                                        "NodeID": 6,
+                                        "LineNumber": 3,
+                                        "Value": "This is a generic shape\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 7,
+                            "LineNumber": 2,
+                            "Name": "stream",
+                            "Type": "IO"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 8,
+            "LineNumber": 7,
+            "Name": "Circle",
+            "Parent": "Shape",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 9,
+                    "LineNumber": 8,
+                    "Name": "print",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 10,
+                        "LineNumber": 9,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 11,
+                                "LineNumber": 9,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 12,
+                                    "LineNumber": 9,
+                                    "Name": "stream"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "StringConstant",
+                                        "NodeID": 13,
+                                        "LineNumber": 9,
+                                        "Value": "This is a circle\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 14,
+                            "LineNumber": 8,
+                            "Name": "stream",
+                            "Type": "IO"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 15,
+            "LineNumber": 12,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 16,
+                    "LineNumber": 13,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 17,
+                        "LineNumber": 14,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 18,
+                                "LineNumber": 15,
+                                "Name": "s",
+                                "Type": "Shape",
+                                "Initializer": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 19,
+                                    "LineNumber": 15,
+                                    "Type": "Circle"
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 20,
+                                "LineNumber": 17,
+                                "Name": "print",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 21,
+                                    "LineNumber": 17,
+                                    "Name": "s"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 22,
+                                        "LineNumber": 17,
+                                        "Name": "self"
+                                    }
+                                ]
+                            },
+                            {
+                                "NodeType": "StaticDispatch",
+                                "NodeID": 23,
+                                "LineNumber": 18,
+                                "Type": "Shape",
+                                "Name": "print",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 24,
+                                    "LineNumber": 18,
+                                    "Name": "s"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 25,
+                                        "LineNumber": 18,
+                                        "Name": "self"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 3,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 3,
+            "Name": "A",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 4,
+                    "Name": "greet",
+                    "ReturnType": "A",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 5,
+                        "Expressions": [
+                            {
+                                "NodeType": "Cast",
+                                "NodeID": 4,
+                                "LineNumber": 5,
+                                "Type": "A",
+                                "Operand": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 5,
+                                    "LineNumber": 5,
+                                    "Name": "out",
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 6,
+                                            "LineNumber": 5,
+                                            "Value": "Hello from class A!"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 7,
+            "LineNumber": 9,
+            "Name": "B",
+            "Parent": "A",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 8,
+                    "LineNumber": 10,
+                    "Name": "goodbye",
+                    "ReturnType": "B",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 9,
+                        "LineNumber": 11,
+                        "Expressions": [
+                            {
+                                "NodeType": "Cast",
+                                "NodeID": 10,
+                                "LineNumber": 11,
+                                "Type": "B",
+                                "Operand": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 11,
+                                    "LineNumber": 11,
+                                    "Name": "out",
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 12,
+                                            "LineNumber": 11,
+                                            "Value": "Bye says B, then!"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 13,
+            "LineNumber": 15,
+            "Name": "Main",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 14,
+                    "LineNumber": 16,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 15,
+                        "LineNumber": 17,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 16,
+                                "LineNumber": 18,
+                                "Name": "speaker",
+                                "Type": "A",
+                                "Initializer": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 17,
+                                    "LineNumber": 18,
+                                    "Type": "B"
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 18,
+                                "LineNumber": 20,
+                                "Name": "goodbye",
+                                "Object": {
+                                    "NodeType": "Cast",
+                                    "NodeID": 19,
+                                    "LineNumber": 20,
+                                    "Type": "B",
+                                    "Operand": {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 20,
+                                        "LineNumber": 20,
+                                        "Name": "greet",
+                                        "Object": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 21,
+                                            "LineNumber": 20,
+                                            "Name": "speaker"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

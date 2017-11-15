@@ -1,0 +1,489 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 1,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 1,
+            "Name": "Cons",
+            "Features": [
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 2,
+                    "LineNumber": 2,
+                    "Name": "xcar",
+                    "Type": "Int"
+                },
+                {
+                    "NodeType": "Attribute",
+                    "NodeID": 3,
+                    "LineNumber": 2,
+                    "Name": "xcdr",
+                    "Type": "Cons"
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 4,
+                    "LineNumber": 4,
+                    "Name": "xcdr",
+                    "ReturnType": "Cons",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 5,
+                        "LineNumber": 4,
+                        "Expressions": [
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 6,
+                                "LineNumber": 4,
+                                "Name": "xcdr"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 7,
+                    "LineNumber": 5,
+                    "Name": "xcar",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 8,
+                        "LineNumber": 5,
+                        "Expressions": [
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 9,
+                                "LineNumber": 5,
+                                "Name": "xcar"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 10,
+                    "LineNumber": 6,
+                    "Name": "size",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 11,
+                        "LineNumber": 7,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 12,
+                                "LineNumber": 7,
+                                "Name": "size",
+                                "Type": "Int"
+                            },
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 13,
+                                "LineNumber": 7,
+                                "Name": "c",
+                                "Type": "Cons",
+                                "Initializer": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 14,
+                                    "LineNumber": 7,
+                                    "Name": "self"
+                                }
+                            },
+                            {
+                                "NodeType": "WhileStatement",
+                                "NodeID": 15,
+                                "LineNumber": 8,
+                                "Condition": {
+                                    "NodeType": "UnaryOperator",
+                                    "NodeID": 16,
+                                    "LineNumber": 8,
+                                    "OperatorKind": "!",
+                                    "Operand": {
+                                        "NodeType": "BinaryOperator",
+                                        "NodeID": 17,
+                                        "LineNumber": 8,
+                                        "OperatorKind": "==",
+                                        "LeftHandSide": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 18,
+                                            "LineNumber": 8,
+                                            "Name": "c"
+                                        },
+                                        "RightHandSide": {
+                                            "NodeType": "NullConstant",
+                                            "NodeID": 19,
+                                            "LineNumber": 8
+                                        }
+                                    }
+                                },
+                                "Body": {
+                                    "NodeType": "Block",
+                                    "NodeID": 20,
+                                    "LineNumber": 9,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "Assignment",
+                                            "NodeID": 21,
+                                            "LineNumber": 9,
+                                            "LeftHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 22,
+                                                "LineNumber": 9,
+                                                "Name": "size"
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 23,
+                                                "LineNumber": 9,
+                                                "OperatorKind": "+",
+                                                "LeftHandSide": {
+                                                    "NodeType": "Symbol",
+                                                    "NodeID": 24,
+                                                    "LineNumber": 9,
+                                                    "Name": "size"
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "IntegerConstant",
+                                                    "NodeID": 25,
+                                                    "LineNumber": 9,
+                                                    "Value": 1
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 26,
+                                            "LineNumber": 10,
+                                            "Name": "out",
+                                            "Object": {
+                                                "NodeType": "NewObject",
+                                                "NodeID": 27,
+                                                "LineNumber": 10,
+                                                "Type": "IO"
+                                            },
+                                            "Arguments": [
+                                                {
+                                                    "NodeType": "BinaryOperator",
+                                                    "NodeID": 28,
+                                                    "LineNumber": 10,
+                                                    "OperatorKind": "+",
+                                                    "LeftHandSide": {
+                                                        "NodeType": "Dispatch",
+                                                        "NodeID": 29,
+                                                        "LineNumber": 10,
+                                                        "Name": "xcar",
+                                                        "Object": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 30,
+                                                            "LineNumber": 10,
+                                                            "Name": "c"
+                                                        }
+                                                    },
+                                                    "RightHandSide": {
+                                                        "NodeType": "StringConstant",
+                                                        "NodeID": 31,
+                                                        "LineNumber": 10,
+                                                        "Value": " "
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "NodeType": "Assignment",
+                                            "NodeID": 32,
+                                            "LineNumber": 11,
+                                            "LeftHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 33,
+                                                "LineNumber": 11,
+                                                "Name": "c"
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "Dispatch",
+                                                "NodeID": 34,
+                                                "LineNumber": 11,
+                                                "Name": "xcdr",
+                                                "Object": {
+                                                    "NodeType": "Symbol",
+                                                    "NodeID": 35,
+                                                    "LineNumber": 11,
+                                                    "Name": "c"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 36,
+                                "LineNumber": 13,
+                                "Name": "size"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 37,
+                    "LineNumber": 16,
+                    "Name": "init",
+                    "ReturnType": "Cons",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 38,
+                        "LineNumber": 17,
+                        "Expressions": [
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 39,
+                                "LineNumber": 17,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 40,
+                                    "LineNumber": 17,
+                                    "Name": "xcar"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 41,
+                                    "LineNumber": 17,
+                                    "Name": "hd"
+                                }
+                            },
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 42,
+                                "LineNumber": 18,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 43,
+                                    "LineNumber": 18,
+                                    "Name": "xcdr"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 44,
+                                    "LineNumber": 18,
+                                    "Name": "tl"
+                                }
+                            },
+                            {
+                                "NodeType": "Symbol",
+                                "NodeID": 45,
+                                "LineNumber": 19,
+                                "Name": "self"
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 46,
+                            "LineNumber": 16,
+                            "Name": "hd",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 47,
+                            "LineNumber": 16,
+                            "Name": "tl",
+                            "Type": "Cons"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "NodeType": "Class",
+            "NodeID": 48,
+            "LineNumber": 23,
+            "Name": "Main",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 49,
+                    "LineNumber": 24,
+                    "Name": "newCons",
+                    "ReturnType": "Cons",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 50,
+                        "LineNumber": 25,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 51,
+                                "LineNumber": 26,
+                                "Name": "c",
+                                "Type": "Cons",
+                                "Initializer": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 52,
+                                    "LineNumber": 26,
+                                    "Type": "Cons"
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 53,
+                                "LineNumber": 28,
+                                "Name": "init",
+                                "Object": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 54,
+                                    "LineNumber": 28,
+                                    "Name": "c"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 55,
+                                        "LineNumber": 28,
+                                        "Name": "hd"
+                                    },
+                                    {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 56,
+                                        "LineNumber": 28,
+                                        "Name": "tl"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 57,
+                            "LineNumber": 24,
+                            "Name": "hd",
+                            "Type": "Int"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 58,
+                            "LineNumber": 24,
+                            "Name": "tl",
+                            "Type": "Cons"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 59,
+                    "LineNumber": 31,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 60,
+                        "LineNumber": 32,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 61,
+                                "LineNumber": 33,
+                                "Name": "c",
+                                "Type": "Cons",
+                                "Initializer": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 62,
+                                    "LineNumber": 33,
+                                    "Name": "newCons",
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 63,
+                                            "LineNumber": 33,
+                                            "Value": 10
+                                        },
+                                        {
+                                            "NodeType": "Dispatch",
+                                            "NodeID": 64,
+                                            "LineNumber": 33,
+                                            "Name": "newCons",
+                                            "Arguments": [
+                                                {
+                                                    "NodeType": "IntegerConstant",
+                                                    "NodeID": 65,
+                                                    "LineNumber": 33,
+                                                    "Value": 20
+                                                },
+                                                {
+                                                    "NodeType": "Dispatch",
+                                                    "NodeID": 66,
+                                                    "LineNumber": 33,
+                                                    "Name": "newCons",
+                                                    "Arguments": [
+                                                        {
+                                                            "NodeType": "IntegerConstant",
+                                                            "NodeID": 67,
+                                                            "LineNumber": 33,
+                                                            "Value": 30
+                                                        },
+                                                        {
+                                                            "NodeType": "Dispatch",
+                                                            "NodeID": 68,
+                                                            "LineNumber": 33,
+                                                            "Name": "newCons",
+                                                            "Arguments": [
+                                                                {
+                                                                    "NodeType": "IntegerConstant",
+                                                                    "NodeID": 69,
+                                                                    "LineNumber": 33,
+                                                                    "Value": 40
+                                                                },
+                                                                {
+                                                                    "NodeType": "NullConstant",
+                                                                    "NodeID": 70,
+                                                                    "LineNumber": 33
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 71,
+                                "LineNumber": 35,
+                                "Name": "out",
+                                "Object": {
+                                    "NodeType": "NewObject",
+                                    "NodeID": 72,
+                                    "LineNumber": 35,
+                                    "Type": "IO"
+                                },
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 73,
+                                        "LineNumber": 35,
+                                        "Name": "size",
+                                        "Object": {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 74,
+                                            "LineNumber": 35,
+                                            "Name": "c"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

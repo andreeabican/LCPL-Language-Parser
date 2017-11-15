@@ -1,0 +1,17 @@
+
+class A 
+	# unintialized attributes
+	var 
+		Int attribute;
+	end;
+
+	# Method with no formals and with return type
+	foo -> Int : 
+		3;
+	end;
+
+	bar -> Int :
+		# function call with no object and no arguments
+		[foo];
+	end;
+end;

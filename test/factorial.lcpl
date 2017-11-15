@@ -1,0 +1,20 @@
+# Factorial class
+class Factorial 
+	fact Int n -> Int :
+		if n < 1 then
+			1;
+		else
+			n * [fact n-1];
+		end;
+	end;
+end;
+
+# Main class
+class Main inherits IO
+	var
+		Factorial f = new Factorial;
+	end;
+	main :
+		[out [f.fact 10]];
+	end;
+end;

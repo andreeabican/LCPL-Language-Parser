@@ -1,0 +1,614 @@
+{
+    "NodeType": "Program",
+    "NodeID": 0,
+    "LineNumber": 2,
+    "Classes": [
+        {
+            "NodeType": "Class",
+            "NodeID": 1,
+            "LineNumber": 2,
+            "Name": "Main",
+            "Parent": "IO",
+            "Features": [
+                {
+                    "NodeType": "Method",
+                    "NodeID": 2,
+                    "LineNumber": 3,
+                    "Name": "extractMiddle",
+                    "ReturnType": "String",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 3,
+                        "LineNumber": 4,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 4,
+                                "LineNumber": 5,
+                                "Name": "pos1",
+                                "Type": "Int"
+                            },
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 5,
+                                "LineNumber": 6,
+                                "Name": "pos2",
+                                "Type": "Int"
+                            },
+                            {
+                                "NodeType": "Assignment",
+                                "NodeID": 6,
+                                "LineNumber": 8,
+                                "LeftHandSide": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 7,
+                                    "LineNumber": 8,
+                                    "Name": "pos1"
+                                },
+                                "RightHandSide": {
+                                    "NodeType": "Dispatch",
+                                    "NodeID": 8,
+                                    "LineNumber": 8,
+                                    "Name": "search0",
+                                    "Arguments": [
+                                        {
+                                            "NodeType": "Symbol",
+                                            "NodeID": 9,
+                                            "LineNumber": 8,
+                                            "Name": "in"
+                                        },
+                                        {
+                                            "NodeType": "IntegerConstant",
+                                            "NodeID": 10,
+                                            "LineNumber": 8,
+                                            "Value": 0
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "NodeType": "IfStatement",
+                                "NodeID": 11,
+                                "LineNumber": 9,
+                                "Condition": {
+                                    "NodeType": "BinaryOperator",
+                                    "NodeID": 12,
+                                    "LineNumber": 9,
+                                    "OperatorKind": "<=",
+                                    "LeftHandSide": {
+                                        "NodeType": "IntegerConstant",
+                                        "NodeID": 13,
+                                        "LineNumber": 9,
+                                        "Value": 0
+                                    },
+                                    "RightHandSide": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 14,
+                                        "LineNumber": 9,
+                                        "Name": "pos1"
+                                    }
+                                },
+                                "Then": {
+                                    "NodeType": "Block",
+                                    "NodeID": 15,
+                                    "LineNumber": 10,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "Assignment",
+                                            "NodeID": 16,
+                                            "LineNumber": 10,
+                                            "LeftHandSide": {
+                                                "NodeType": "Symbol",
+                                                "NodeID": 17,
+                                                "LineNumber": 10,
+                                                "Name": "pos2"
+                                            },
+                                            "RightHandSide": {
+                                                "NodeType": "Dispatch",
+                                                "NodeID": 18,
+                                                "LineNumber": 10,
+                                                "Name": "search0",
+                                                "Arguments": [
+                                                    {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 19,
+                                                        "LineNumber": 10,
+                                                        "Name": "in"
+                                                    },
+                                                    {
+                                                        "NodeType": "BinaryOperator",
+                                                        "NodeID": 20,
+                                                        "LineNumber": 10,
+                                                        "OperatorKind": "+",
+                                                        "LeftHandSide": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 21,
+                                                            "LineNumber": 10,
+                                                            "Name": "pos1"
+                                                        },
+                                                        "RightHandSide": {
+                                                            "NodeType": "IntegerConstant",
+                                                            "NodeID": 22,
+                                                            "LineNumber": 10,
+                                                            "Value": 1
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "NodeType": "IfStatement",
+                                            "NodeID": 23,
+                                            "LineNumber": 11,
+                                            "Condition": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 24,
+                                                "LineNumber": 11,
+                                                "OperatorKind": "<=",
+                                                "LeftHandSide": {
+                                                    "NodeType": "IntegerConstant",
+                                                    "NodeID": 25,
+                                                    "LineNumber": 11,
+                                                    "Value": 0
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "Symbol",
+                                                    "NodeID": 26,
+                                                    "LineNumber": 11,
+                                                    "Name": "pos2"
+                                                }
+                                            },
+                                            "Then": {
+                                                "NodeType": "Block",
+                                                "NodeID": 27,
+                                                "LineNumber": 11,
+                                                "Expressions": [
+                                                    {
+                                                        "NodeType": "Substring",
+                                                        "NodeID": 28,
+                                                        "LineNumber": 11,
+                                                        "Object": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 29,
+                                                            "LineNumber": 11,
+                                                            "Name": "in"
+                                                        },
+                                                        "Start": {
+                                                            "NodeType": "BinaryOperator",
+                                                            "NodeID": 30,
+                                                            "LineNumber": 11,
+                                                            "OperatorKind": "+",
+                                                            "LeftHandSide": {
+                                                                "NodeType": "Symbol",
+                                                                "NodeID": 31,
+                                                                "LineNumber": 11,
+                                                                "Name": "pos1"
+                                                            },
+                                                            "RightHandSide": {
+                                                                "NodeType": "IntegerConstant",
+                                                                "NodeID": 32,
+                                                                "LineNumber": 11,
+                                                                "Value": 1
+                                                            }
+                                                        },
+                                                        "End": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 33,
+                                                            "LineNumber": 11,
+                                                            "Name": "pos2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "Else": {
+                                                "NodeType": "Block",
+                                                "NodeID": 34,
+                                                "LineNumber": 11,
+                                                "Expressions": [
+                                                    {
+                                                        "NodeType": "StringConstant",
+                                                        "NodeID": 35,
+                                                        "LineNumber": 11,
+                                                        "Value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                "Else": {
+                                    "NodeType": "Block",
+                                    "NodeID": 36,
+                                    "LineNumber": 13,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "StringConstant",
+                                            "NodeID": 37,
+                                            "LineNumber": 13,
+                                            "Value": ""
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 38,
+                            "LineNumber": 3,
+                            "Name": "in",
+                            "Type": "String"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 39,
+                    "LineNumber": 17,
+                    "Name": "search0",
+                    "ReturnType": "Int",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 40,
+                        "LineNumber": 18,
+                        "Expressions": [
+                            {
+                                "NodeType": "LocalDefinition",
+                                "NodeID": 41,
+                                "LineNumber": 19,
+                                "Name": "found",
+                                "Type": "Int",
+                                "Initializer": {
+                                    "NodeType": "IntegerConstant",
+                                    "NodeID": 42,
+                                    "LineNumber": 19,
+                                    "Value": 0
+                                }
+                            },
+                            {
+                                "NodeType": "WhileStatement",
+                                "NodeID": 43,
+                                "LineNumber": 21,
+                                "Condition": {
+                                    "NodeType": "UnaryOperator",
+                                    "NodeID": 44,
+                                    "LineNumber": 21,
+                                    "OperatorKind": "!",
+                                    "Operand": {
+                                        "NodeType": "Symbol",
+                                        "NodeID": 45,
+                                        "LineNumber": 21,
+                                        "Name": "found"
+                                    }
+                                },
+                                "Body": {
+                                    "NodeType": "Block",
+                                    "NodeID": 46,
+                                    "LineNumber": 22,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "IfStatement",
+                                            "NodeID": 47,
+                                            "LineNumber": 22,
+                                            "Condition": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 48,
+                                                "LineNumber": 22,
+                                                "OperatorKind": "==",
+                                                "LeftHandSide": {
+                                                    "NodeType": "Substring",
+                                                    "NodeID": 49,
+                                                    "LineNumber": 22,
+                                                    "Object": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 50,
+                                                        "LineNumber": 22,
+                                                        "Name": "in"
+                                                    },
+                                                    "Start": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 51,
+                                                        "LineNumber": 22,
+                                                        "Name": "pos"
+                                                    },
+                                                    "End": {
+                                                        "NodeType": "BinaryOperator",
+                                                        "NodeID": 52,
+                                                        "LineNumber": 22,
+                                                        "OperatorKind": "+",
+                                                        "LeftHandSide": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 53,
+                                                            "LineNumber": 22,
+                                                            "Name": "pos"
+                                                        },
+                                                        "RightHandSide": {
+                                                            "NodeType": "IntegerConstant",
+                                                            "NodeID": 54,
+                                                            "LineNumber": 22,
+                                                            "Value": 1
+                                                        }
+                                                    }
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "StringConstant",
+                                                    "NodeID": 55,
+                                                    "LineNumber": 22,
+                                                    "Value": "|"
+                                                }
+                                            },
+                                            "Then": {
+                                                "NodeType": "Block",
+                                                "NodeID": 56,
+                                                "LineNumber": 22,
+                                                "Expressions": [
+                                                    {
+                                                        "NodeType": "Assignment",
+                                                        "NodeID": 57,
+                                                        "LineNumber": 22,
+                                                        "LeftHandSide": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 58,
+                                                            "LineNumber": 22,
+                                                            "Name": "found"
+                                                        },
+                                                        "RightHandSide": {
+                                                            "NodeType": "IntegerConstant",
+                                                            "NodeID": 59,
+                                                            "LineNumber": 22,
+                                                            "Value": 1
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "Else": {
+                                                "NodeType": "Block",
+                                                "NodeID": 60,
+                                                "LineNumber": 22,
+                                                "Expressions": [
+                                                    {
+                                                        "NodeType": "Assignment",
+                                                        "NodeID": 61,
+                                                        "LineNumber": 22,
+                                                        "LeftHandSide": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 62,
+                                                            "LineNumber": 22,
+                                                            "Name": "pos"
+                                                        },
+                                                        "RightHandSide": {
+                                                            "NodeType": "BinaryOperator",
+                                                            "NodeID": 63,
+                                                            "LineNumber": 22,
+                                                            "OperatorKind": "+",
+                                                            "LeftHandSide": {
+                                                                "NodeType": "Symbol",
+                                                                "NodeID": 64,
+                                                                "LineNumber": 22,
+                                                                "Name": "pos"
+                                                            },
+                                                            "RightHandSide": {
+                                                                "NodeType": "IntegerConstant",
+                                                                "NodeID": 65,
+                                                                "LineNumber": 22,
+                                                                "Value": 1
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "NodeType": "IfStatement",
+                                            "NodeID": 66,
+                                            "LineNumber": 23,
+                                            "Condition": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 67,
+                                                "LineNumber": 23,
+                                                "OperatorKind": "==",
+                                                "LeftHandSide": {
+                                                    "NodeType": "Symbol",
+                                                    "NodeID": 68,
+                                                    "LineNumber": 23,
+                                                    "Name": "pos"
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "Dispatch",
+                                                    "NodeID": 69,
+                                                    "LineNumber": 23,
+                                                    "Name": "length",
+                                                    "Object": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 70,
+                                                        "LineNumber": 23,
+                                                        "Name": "in"
+                                                    }
+                                                }
+                                            },
+                                            "Then": {
+                                                "NodeType": "Block",
+                                                "NodeID": 71,
+                                                "LineNumber": 23,
+                                                "Expressions": [
+                                                    {
+                                                        "NodeType": "Assignment",
+                                                        "NodeID": 72,
+                                                        "LineNumber": 23,
+                                                        "LeftHandSide": {
+                                                            "NodeType": "Symbol",
+                                                            "NodeID": 73,
+                                                            "LineNumber": 23,
+                                                            "Name": "found"
+                                                        },
+                                                        "RightHandSide": {
+                                                            "NodeType": "IntegerConstant",
+                                                            "NodeID": 74,
+                                                            "LineNumber": 23,
+                                                            "Value": 1
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "NodeType": "IfStatement",
+                                "NodeID": 75,
+                                "LineNumber": 25,
+                                "Condition": {
+                                    "NodeType": "Symbol",
+                                    "NodeID": 76,
+                                    "LineNumber": 25,
+                                    "Name": "found"
+                                },
+                                "Then": {
+                                    "NodeType": "Block",
+                                    "NodeID": 77,
+                                    "LineNumber": 25,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "IfStatement",
+                                            "NodeID": 78,
+                                            "LineNumber": 25,
+                                            "Condition": {
+                                                "NodeType": "BinaryOperator",
+                                                "NodeID": 79,
+                                                "LineNumber": 25,
+                                                "OperatorKind": "==",
+                                                "LeftHandSide": {
+                                                    "NodeType": "Symbol",
+                                                    "NodeID": 80,
+                                                    "LineNumber": 25,
+                                                    "Name": "pos"
+                                                },
+                                                "RightHandSide": {
+                                                    "NodeType": "Dispatch",
+                                                    "NodeID": 81,
+                                                    "LineNumber": 25,
+                                                    "Name": "length",
+                                                    "Object": {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 82,
+                                                        "LineNumber": 25,
+                                                        "Name": "in"
+                                                    }
+                                                }
+                                            },
+                                            "Then": {
+                                                "NodeType": "Block",
+                                                "NodeID": 83,
+                                                "LineNumber": 25,
+                                                "Expressions": [
+                                                    {
+                                                        "NodeType": "UnaryOperator",
+                                                        "NodeID": 84,
+                                                        "LineNumber": 25,
+                                                        "OperatorKind": "-",
+                                                        "Operand": {
+                                                            "NodeType": "IntegerConstant",
+                                                            "NodeID": 85,
+                                                            "LineNumber": 25,
+                                                            "Value": 1
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "Else": {
+                                                "NodeType": "Block",
+                                                "NodeID": 86,
+                                                "LineNumber": 25,
+                                                "Expressions": [
+                                                    {
+                                                        "NodeType": "Symbol",
+                                                        "NodeID": 87,
+                                                        "LineNumber": 25,
+                                                        "Name": "pos"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                "Else": {
+                                    "NodeType": "Block",
+                                    "NodeID": 88,
+                                    "LineNumber": 25,
+                                    "Expressions": [
+                                        {
+                                            "NodeType": "UnaryOperator",
+                                            "NodeID": 89,
+                                            "LineNumber": 25,
+                                            "OperatorKind": "-",
+                                            "Operand": {
+                                                "NodeType": "IntegerConstant",
+                                                "NodeID": 90,
+                                                "LineNumber": 25,
+                                                "Value": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "FormalParams": [
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 91,
+                            "LineNumber": 17,
+                            "Name": "in",
+                            "Type": "String"
+                        },
+                        {
+                            "NodeType": "FormalParam",
+                            "NodeID": 92,
+                            "LineNumber": 17,
+                            "Name": "pos",
+                            "Type": "Int"
+                        }
+                    ]
+                },
+                {
+                    "NodeType": "Method",
+                    "NodeID": 93,
+                    "LineNumber": 28,
+                    "Name": "main",
+                    "ReturnType": "Void",
+                    "Body": {
+                        "NodeType": "Block",
+                        "NodeID": 94,
+                        "LineNumber": 29,
+                        "Expressions": [
+                            {
+                                "NodeType": "Dispatch",
+                                "NodeID": 95,
+                                "LineNumber": 29,
+                                "Name": "out",
+                                "Arguments": [
+                                    {
+                                        "NodeType": "Dispatch",
+                                        "NodeID": 96,
+                                        "LineNumber": 29,
+                                        "Name": "extractMiddle",
+                                        "Arguments": [
+                                            {
+                                                "NodeType": "StringConstant",
+                                                "NodeID": 97,
+                                                "LineNumber": 29,
+                                                "Value": "Hello|my|world!"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
