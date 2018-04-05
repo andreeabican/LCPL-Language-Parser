@@ -60,6 +60,54 @@ To check all the tests run in the root directory:
 ```
 $ ./compare all
 ```
-# LCPL language syntax
+## LCPL language syntax
 
+### Class declararion
+```
+class <name> [inherits <name>]
+  <members>
+end;
+```
 
+Members may contain attributes of method definitions (or both).
+
+### Attributes declaration
+```
+<type> <name> [ = <expression> ] ;
+```
+
+Attributes have to be declared in a **var..end;** section.
+Example:
+```
+var Int xcar; List xcdr; end;
+```
+
+### Method declararion
+```
+<name> [ <args> ] [ -> <type> ] : <body> end;
+```
+
+### Example
+```
+class Cons
+  var Int xcar; Cons xcdr; end;
+  
+  size -> Int:
+    1 + if xcdr == null then 0; else [xcdr.size]; end;
+  end;
+
+  init Int hd, Cons tl:
+    xcar = hd;
+    xcdr = tl;
+  end;
+end;
+
+class Main
+  main:
+    local Cons c; Int x; end;
+    c = new Cons;
+    x = 0;
+    [c.init x, c];
+  end;
+end;
+```
